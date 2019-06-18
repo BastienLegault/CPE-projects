@@ -1,0 +1,19 @@
+CXXFLAGS= -g -Wall -Wextra -O2
+LDFLAGS = -L/usr/lib/nvidia-384 -lm -lglut -lGLEW -lGLU -lGL -pthread
+#remarque: /usr/lib/nvidia-331 specifique pour les installations de CPE
+
+
+all: executable
+
+executable: main.o gl-utils.o tga.o 
+	g++ $^ -o executable $(LDFLAGS)
+
+main.o: main.cc image.h gl-utils.h vec2.h vec4.h
+gl-utils.o: gl-utils.cc gl-utils.h
+vec2.o: vec2.h
+vec4.o: vec4.h
+tga.o: tga.cc image.h
+
+.PHONY: clean
+clean: 
+	rm -f format/*.o *.o executable *~ 
