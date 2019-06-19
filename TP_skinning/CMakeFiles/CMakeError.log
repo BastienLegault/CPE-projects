@@ -1,0 +1,102 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3591901824/fast"
+make: AVERTISSEMENT: fichier « Makefile » a une date de modification 0,059 dans le futur
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3591901824.dir/build.make CMakeFiles/cmTryCompileExec3591901824.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: AVERTISSEMENT: fichier « CMakeFiles/cmTryCompileExec3591901824.dir/flags.make » a une date de modification 0,05 dans le futur
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3591901824.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3591901824.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec3591901824.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec3591901824/fast] Erreur 2
+
+File /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1524872720/fast"
+make: AVERTISSEMENT: fichier « Makefile » a une date de modification 0,066 dans le futur
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1524872720.dir/build.make CMakeFiles/cmTryCompileExec1524872720.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: AVERTISSEMENT: fichier « CMakeFiles/cmTryCompileExec1524872720.dir/flags.make » a une date de modification 0,064 dans le futur
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1524872720.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1524872720.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec1524872720.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec1524872720/fast] Erreur 2
+
+File /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2119199414/fast"
+make: AVERTISSEMENT: fichier « Makefile » a une date de modification 0,059 dans le futur
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2119199414.dir/build.make CMakeFiles/cmTryCompileExec2119199414.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: AVERTISSEMENT: fichier « CMakeFiles/cmTryCompileExec2119199414.dir/flags.make » a une date de modification 0,047 dans le futur
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2119199414.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2119199414.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: quittant le répertoire « /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2119199414.dir/CheckSymbolExists.cxx.o] Erreur 1
+make: *** [cmTryCompileExec2119199414/fast] Erreur 2
+
+File /fs03/share/users/mathieu.badoux/home/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
